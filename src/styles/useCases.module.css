@@ -1,0 +1,78 @@
+.mainContainer {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid blue; */
+  margin-top: 100px;
+  /* padding-bottom: 100px; */
+}
+.headingTextOne {
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.headingTextTwo {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
+  font-weight: 600;
+
+  color: #375d75;
+}
+.textDescription {
+  font-size: 28px;
+  margin: auto;
+  text-align: center;
+  color: #375d75;
+  width: 82%;
+  margin-top: 25px;
+}
+.getStartedButton {
+  border-radius: 5px;
+  background-color: #3b8fc2;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 22px;
+  height: 60px;
+  width: 20%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getStartedButton:hover {
+  background-color: #375d75;
+  cursor: pointer;
+}
+.bodyGridContainer {
+  box-sizing: border-box;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+.bodyGridContainerHeading {
+  font-size: 32px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #375d75;
+}
+.bodyGridContainerDesc {
+  font-size: 17px;
+
+  text-align: left;
+  color: black;
+
+  margin-top: 0px;
+}
+.reviewOwnerHeading {
+  align-items: left;
+  font-weight: 800;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 15px;
+}
+.rrr {
+  text-align: center;
+}
