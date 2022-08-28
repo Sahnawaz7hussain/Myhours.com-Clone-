@@ -1,0 +1,19 @@
+.homeDetailSimplegrid {
+  gap: 50px;
+  border: 0px solid red;
+  margin-top: 80px;
+}
+.headingText {
+  font-size: 28px;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.descText {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+}
