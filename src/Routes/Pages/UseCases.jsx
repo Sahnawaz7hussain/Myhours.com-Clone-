@@ -83,7 +83,7 @@ export default function UseCases() {
             <Box
               className={ModuleUsecase.bodyGridContainer}
               bg="#F0F8FF"
-              border={"1px"}
+              border="1px"
               borderColor={"#7FFFD4"}
               boxShadow="lg"
             >

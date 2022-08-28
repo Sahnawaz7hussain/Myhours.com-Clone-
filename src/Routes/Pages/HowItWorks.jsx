@@ -41,7 +41,7 @@ export default function HowItWorks() {
             src="https://www.youtube.com/embed/VpMysclixyQ"
             title="YouTube video player"
             frameborder="0"
-            allowfullscreen
+            allowFullScreen
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
         </AspectRatio>

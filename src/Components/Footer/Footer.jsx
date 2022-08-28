@@ -24,7 +24,9 @@ export const Footer = () => {
             Product
           </Heading>
           {Product.map((el) => (
-            <Text color="#DBF1FF">{el}</Text>
+            <Text color="#DBF1FF" key={el}>
+              {el}
+            </Text>
           ))}
         </Stack>
         <Stack>
@@ -32,7 +34,9 @@ export const Footer = () => {
             Resources
           </Heading>
           {Resources.map((el) => (
-            <Text color="#DBF1FF">{el}</Text>
+            <Text color="#DBF1FF" key={el}>
+              {el}
+            </Text>
           ))}
         </Stack>
         <Stack>
@@ -40,7 +44,9 @@ export const Footer = () => {
             Use cases
           </Heading>
           {UseCases.map((el) => (
-            <Text color="#DBF1FF">{el}</Text>
+            <Text color="#DBF1FF" key={el}>
+              {el}
+            </Text>
           ))}
         </Stack>
         <Stack>
@@ -48,7 +54,9 @@ export const Footer = () => {
             Integrations
           </Heading>
           {Integrations.map((el) => (
-            <Text color="#DBF1FF">{el}</Text>
+            <Text color="#DBF1FF" key={el}>
+              {el}
+            </Text>
           ))}
         </Stack>
         <Stack>
@@ -56,7 +64,9 @@ export const Footer = () => {
             Social
           </Heading>
           {Social.map((el) => (
-            <Text color="#DBF1FF">{el}</Text>
+            <Text color="#DBF1FF" key={el}>
+              {el}
+            </Text>
           ))}
         </Stack>
       </SimpleGrid>
